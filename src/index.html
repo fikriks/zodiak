@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zodiak">
+    <meta name="keywords" content="Zodiak">
+    <title>Zodiak</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <span class="navbar-brand mb-0 h1">Zodiak</span>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Zodiak</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="alert alert-danger" role="alert">
+                        </div>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input id="nama" type="text" class="form-control" placeholder="Nama..." autocomplete="off"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="tgllahir">Tanggal Lahir</label>
+                            <input type="date" id="tgllahir" class="form-control" placeholder="dd-MM-yyyy" required>
+                        </div>
+                        <div class="form-group">
+                            <button id="buttonProses" class="btn btn-success">Proses</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="card-hasil">
+            <div class="card mt-3">
+                <div class="modal-header">
+                    <h4 class="card-title">Hasil</h4>
+                </div>
+                <div class="card-body">
+                    <div id="hasil"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="col-12 text-center bg-primary p-3 mt-5">
+            <p class="text-white">&copy;2020</p>
+        </div>
+    </footer>
+</body>
+
+</html>
