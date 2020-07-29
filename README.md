@@ -3,7 +3,7 @@
 > Mengetahui zodiak seseorang berdasarkan tanggal lahirnya
 
 # Mode Development
-    npm instal
+    npm install
     npm run start-dev
 
 # Mode Production
